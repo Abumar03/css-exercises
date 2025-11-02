@@ -21,7 +21,7 @@ As-tu créé des règles séparées pour les styles uniques à chaque élément 
     background-color: yellow;
 }
 
-.both {
+.first, .second {
     font-size: 24px;
     font-family: Helvetica, "Times New Roman", sans-serif;
 }
