@@ -1,1 +1,17 @@
-/* Add CSS Styling */
+/* Add CSS Styling
+Seuls les éléments p qui sont descendants de l'élément div doivent avoir un fond jaune, un texte rouge, une taille de police de 20px et un alignement centré.
+
+Résultat souhaité
+résultat souhaité
+Auto-vérification
+
+Les éléments contenant le texte "This should be styled" ont-ils les styles corrects appliqués ?
+Les éléments contenant le texte "This should be unstyled" n'ont-ils aucun style appliqué ? */
+
+
+.container p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
