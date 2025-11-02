@@ -1,1 +1,24 @@
 /* Add CSS Styling */
+
+/* Voici les propriétés que tu dois ajouter à chaque élément :
+
+Fais en sorte que l'élément ayant à la fois les classes avatar et proportioned ait une largeur de 300 pixels, puis donne-lui une hauteur de manière à conserver ses proportions carrées d'origine (ne code pas une valeur en pixels pour la hauteur !).
+Fais en sorte que l'élément ayant à la fois les classes avatar et distorted ait une largeur de 200 pixels, puis fais en sorte que sa hauteur soit deux fois plus grande que sa largeur (ici, tu dois coder une valeur en pixels).
+
+Résultat souhaité
+résultat souhaité
+Auto-vérification
+
+As-tu correctement chaîné les sélecteurs de classe pour chaque règle ?
+L'image proportioned conserve-t-elle ses proportions carrées d'origine ?
+L'image distorted a-t-elle l'air écrasée et, eh bien, déformée ? */
+
+.avatar.proportioned {
+    height: auto;
+    width: 300px;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
