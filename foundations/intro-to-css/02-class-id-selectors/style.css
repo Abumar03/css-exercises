@@ -1,1 +1,23 @@
 /* Add CSS Styling */
+
+.impair {
+    background-color: #ff69b4;
+    font-family: Verdana, "dejaVu Sans", sans-serif;
+}
+
+#second {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.impair.font {
+    font-size: 24px;
+}
+
+#four {
+    background-color: #7fff00;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Le quatrième élément : un fond vert clair, une taille de police de 24px, et du texte en gras. */
