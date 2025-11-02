@@ -1,1 +1,27 @@
 /* Add CSS Styling */
+
+ /* Le premier élément : un fond noir et un texte blanc.
+Le deuxième élément : un fond jaune.
+Les deux éléments : une taille de police de 28px et une liste de polices contenant Helvetica et Times New Roman, avec sans-serif comme police de repli.
+
+Résultat souhaité
+résultat souhaité
+Auto-vérification
+
+Chaque élément a-t-il un nom de classe unique ?
+As-tu utilisé le sélecteur de regroupement pour les styles que les deux éléments partagent ?
+As-tu créé des règles séparées pour les styles uniques à chaque élément ?  */
+
+.first {
+    background-color: black;
+    color: white;
+}
+
+.second {
+    background-color: yellow;
+}
+
+.both {
+    font-size: 24px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
